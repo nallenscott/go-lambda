@@ -3,7 +3,7 @@
   go-lambda<br>
 </h1>
 
-A simple example of how to build a Go Lambda function and zip it for deployment to AWS Lambda.
+Simple examples of how to build a Go Lambda function and deploy it to AWS Lambda as a ZIP file or a scratch container image.
 
 ## Prerequisites
 
