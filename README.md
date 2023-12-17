@@ -45,7 +45,7 @@ Simple examples of how to build a Go Lambda function and deploy it to AWS Lambda
 
     ```bash
     go get ./...
-    GOOS=linux GOARCH=amd64 go build -o bootstrap .
+    GOOS=linux GOARCH=amd64 go build -tags lambda.norpc -o bootstrap .
     zip go-lambda.zip bootstrap
     ```
 
